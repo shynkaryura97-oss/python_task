@@ -1,4 +1,3 @@
-# exporters/base_exporter.py
 from abc import ABC, abstractmethod
 
 class BaseExporter(ABC):
