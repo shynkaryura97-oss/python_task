@@ -1,0 +1,26 @@
+# Структура проекта
+room_students/
+├── src/
+│   ├── database/
+│   │   ├── __init__.py
+│   │   ├── database_manager.py
+│   │   └── schema.sql
+│   ├── data_loader/
+│   │   ├── __init__.py
+│   │   └── data_loader.py
+│   ├── queries/
+│   │   ├── __init__.py
+│   │   └── room_queries.py
+│   ├── exporters/
+│   │   ├── __init__.py
+│   │   ├── base_exporter.py
+│   │   ├── json_exporter.py
+│   │   └── xml_exporter.py
+│   ├── config/
+│   │   ├── __init__.py
+│   │   └── settings.py
+│   └── main.py
+├── tests/
+├── requirements.txt
+├── README.md
+└── run.py
